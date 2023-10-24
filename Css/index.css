@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* cabecera */
+header{
+    display: grid;
+    grid-template-columns: minmax(400px, auto) 1fr;
+    align-items: center;
+    background-color: rgb(101, 101, 255);
+}
+
+header .logo{
+    grid-column: 1;
+    border: solid black 10px;
+}
+
+header .logo img{
+    padding-left: 50px;
+    border: solid black 10px;
+    height: 120px;
+    width: 390px;
+}
+
+header .enlace{
+    padding-left: 60px;
+}
+
+header .enlaces{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 10px;
+}
+
+header .enlaces a{
+    color: white;
+    text-decoration: none;
+}
+
+header .enlaces li{
+    /* margin-right: 20px; */
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+/* fin cabecera */
+
+
+
+
+.containerCarrusel{
+   display: grid;
+   grid-gap: 10px;
+   grid-template-columns: 1fr 1fr; 
+}
+
+
+.containerCarrusel .carrusel{
+    background-color: red;
+}
+
+.containerCarrusel .textoCarrusel{
+    background-color: blue;
+}
